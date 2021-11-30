@@ -1,0 +1,50 @@
+html {
+    background: rgb(255, 227, 194);
+}
+
+.App {
+    display: flex;
+}
+
+.header {
+    color: rgb(32, 5, 153);
+    text-align: center;
+    font-size: 200%;
+    font-family: comic sans ms;
+}
+
+.click {
+    background:rgb(189, 28, 17);
+    color:white;
+    font-family: comic sans ms;
+    font-size: 100%;
+    border-radius: 15px;
+    border-color: rgb(190, 190, 190);
+    border-width: 4px;
+    border-style: solid;
+    width: 200px;
+    height: 60px;
+}
+
+.click:hover {
+    background: red;
+    width: 210px;
+}
+
+.newQuote {
+    background: rgb(245, 245, 245);
+    font-family: comic sans ms;
+    font-size: 100%;
+    font-style: normal;
+    width: 600px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.no-italics {
+    font-style: normal;
+}
+
+.newQuote:hover {
+    background: rgb(242, 249, 255);
+}
